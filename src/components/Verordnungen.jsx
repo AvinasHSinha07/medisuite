@@ -51,7 +51,7 @@ const Verordnungen = () => {
   }, []);
 
   return (
-    <div className="w-full h-full  font-segoe flex flex-col lg:flex-row items-center gap-20 md:gap-0 justify-center overflow-hidden text-white">
+    <div className="w-full h-full  font-segoe flex flex-col lg:flex-row md:items-center md:gap-0 justify-center overflow-hidden text-white">
  
       <div className="w-full lg:w-2/3 flex items-start justify-center flex-col bg-[#AEBD48] py-6 px-8 md:px-16 h-full">
       <h1 className="text-4xl lg:text-5xl mt-4 lg:mt-8 mb-4 lg:mb-8">

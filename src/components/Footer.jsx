@@ -4,8 +4,8 @@ import logo2 from "/dhys-group.svg";
 
 const Footer = () => {
     return (
-        <div className='bg-[#212529] text-white h-24 px-24 flex flex-col md:flex-row items-center justify-between'>
-            <div className='text-center md:text-left'>
+        <div className='bg-[#212529] text-white md:h-24 h-auto  md:px-24  px-4  flex flex-col md:flex-row items-center justify-between'>
+            <div className='text-center md:text-left mt-4'>
                 <p className='text-sm md:text-base md:w-9/12'>
                     © Scheitlin Medical und Medisuite sind Marken der Scheitlin Papier AG. Alle Rechte vorbehalten.
                 </p>

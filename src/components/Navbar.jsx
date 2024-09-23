@@ -5,7 +5,7 @@ import logomobile from "/mobilelogo.ico";
 import logo from "/logo.png";
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between h-16 px-24">
+        <div className="flex items-center justify-between h-16 lg:px-24 px-4">
         <div>
           <NavLink to="/" className="flex-shrink-0">
             <img

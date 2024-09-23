@@ -45,7 +45,7 @@ const MainArea = () => {
         spaceBetween={0}
         slidesPerView={1}
         ref={swiperRef}
-        className="flex-grow w-full" // Ensures Swiper takes up the full height
+        className="md:flex-grow w-full h-auto" // Ensures Swiper takes up the full height
       >
         {Object.keys(contentMap).map((path, index) => (
           <SwiperSlide key={index}>
